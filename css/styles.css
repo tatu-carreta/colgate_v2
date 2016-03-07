@@ -1,0 +1,335 @@
+body {background: url(../images/bg-body2.jpg) no-repeat 50% -30px;  font-family: 'Roboto Condensed', sans-serif; margin:0;}/*ñ*/
+body, html {height: 100%}
+.container {max-width: 1180px; margin:0 auto; padding: 0 10px; position: relative;}
+ul, li {list-style: none; padding: 0; margin: 0px;}
+a {text-decoration: none;}
+button span {display: none;}
+.clear {clear: both;}
+
+h1 {max-width: 860px; height: 113px; margin:15px auto 0; position: relative; z-index: 998;}
+h1 img {width: 100%; height: auto}
+.h1mobile {display: none;}
+
+h2.presentacion {color: #fff; font-size: 42px; line-height: 42px; font-weight: 400; width: 43%; margin: 0 0 0 30px; position: relative; top:-140px;}
+h2.presentacion span {color: #ffde3d}
+h2.presentacion span.r {font-size: 28px; position: relative; top:-5px; color:#fff;}
+
+/* Poste Menú Superior */
+nav { }
+nav a{position: absolute; display: block}
+nav span {display: none}
+nav.menuPc {background: url(../images/poste.png) no-repeat top center; position: absolute; height: 489px; width: 450px; right: 0; top:90px;}
+nav.menuPc .prod {background: url(../images/btn-productos.png) no-repeat; background-size: 100%; width: 253px ; height: 153px; top:200px; left:225px; transition: all 0.5s ease 0.5s; -webkit-transition: all 0.5s ease 0.5s; -moz-transition: all 0.5s ease 0.5s;}
+nav.menuPc .prod:hover {width: 280px ; height: 170px; }
+nav.menuPc .bases {background: url(../images/btn-bases.png) no-repeat; background-size: 100%; width: 249px ; height: 105px; top:50px; left:225px;transition: all 0.5s ease 0.5s; -webkit-transition: all 0.5s ease 0.5s; -moz-transition: all 0.5s ease 0.5s;} 
+nav.menuPc .bases:hover {width: 280px ; height: 170px;}
+nav.menuPc .reg {background: url(../images/btn-registrate.png) no-repeat; background-size: 100%; width: 254px ; height: 113px; top:120px; left:17px; transition: all 0.5s ease 0.5s; -webkit-transition: all 0.5s ease 0.5s; -moz-transition: all 0.5s ease 0.5s;}
+nav.menuPc .reg:hover {width: 280px ; height: 170px; position: relative; left:-10px;}
+
+nav.menuResponsive {display: none; width: 100%; height: 70px; background:#fff; position: fixed; top:0; left:0; z-index: 999}
+nav.menuResponsive ul {left: -12px; position: relative;}
+nav.menuResponsive a {width: 187px ; height: 89px; }
+nav.menuResponsive .reg {background: url(../images/btn-registrate-cel.png) no-repeat; left:-12px; z-index: 30}
+nav.menuResponsive .reg:hover {background: url(../images/btn-registrate-cel-hover.png) no-repeat;}
+nav.menuResponsive .prod {background: url(../images/btn-productos-cel.png) no-repeat; left:88px;z-index: 20}
+nav.menuResponsive .prod:hover {background: url(../images/btn-productos-cel-hover.png) no-repeat; }
+nav.menuResponsive .bases {background: url(../images/btn-bases-cel.png) no-repeat; left:205px; z-index: 15} 
+nav.menuResponsive .bases:hover {background: url(../images/btn-bases-cel-hover.png) no-repeat;
+
+
+} 
+
+/*section {height: 100%;}*/
+#inicio {min-height: 1000px}
+#productos .container, #registro .container {height: 100%; padding-top: 10px;} 
+#bases {min-height: 700px}
+#bases .colContent {padding-top: 0.1em;}
+.colMenu {width: 327px; float: left; position: relative; z-index: 100}
+.colContent {margin-left: 327px;position: relative; z-index: 100; }
+.divDivisor {margin: 3em 0 5em}
+.divDivisor img {width: 100%; height: auto}
+
+.microGde {background: url(../images/sombra.png) no-repeat; background-size: 100%; width: 70%;  position: relative; left:-40px; top:-30px;}/*height: 532px;*/
+.microGde img, .premiosGde img {width: 100%; height: auto}
+.premiosGde {width: 45%; height: 307px; position: absolute; right: -20px; bottom: 100px; z-index: 995;}
+.papelitosHome {max-width: 1200px; height: 458px; position: absolute; top: 70px; left: 0}
+.papelitosProd {max-width: 1200px; height: 458px; position: absolute; top: 70px; left: 0}
+.papelitosRegistro {max-width: 1200px; height: 458px; position: absolute; bottom: 0; left: 0; transform: rotate(180deg); -webkit-transform: rotate(180deg); -moz-transform: rotate(180deg);}
+.papelitosHome img, .papelitosProd img, .papelitosRegistro img {width: 100%; height: auto}
+
+/* Menúes secundarios laterales */
+ul.menuProd {}
+ul.menuProd span {display: none}
+ul.menuProd a {display: block; width: 239px; height: 110px;}
+ul.menuProd li:first-child a {width: 327px !important; height: 150px; font-size: 1.1em}
+
+.menuProd .prod-lateral {background: url(../images/btn-productos-l-ch.png) no-repeat;}
+.menuProd .prod-lateral-gr  {background: url(../images/btn-productos-l-gr.png) no-repeat;}
+.menuProd .bases-lateral {background: url(../images/btn-bases-l-ch.png) no-repeat;} 
+.menuProd .bases-lateral-gr {background: url(../images/btn-bases-l-gr.png) no-repeat;} 
+.menuProd .reg-lateral {background: url(../images/btn-registrate-l-ch.png) no-repeat;}
+.menuProd .reg-lateral-gr {background: url(../images/btn-registrate-l-gr.png) no-repeat;}
+
+/* Menúes Productos por Edades */
+.menuEdad li {display: inline-block;}
+.menuEdad button {display: block; width: 90px; height: 95px; transition: all 0.5s ease 0.5s; -webkit-transition: all 0.5s ease 0.5s; -moz-transition: all 0.5s ease 0.5s; background: transparent;border: 0; cursor: pointer;}
+.menuEdad button:hover {transform: scale(1.5); -webkit-transform: scale(1.5); -moz-transform: scale(1.5);}
+.menuEdad .active {transform: scale(1.5); -webkit-transform: scale(1.5); -moz-transform: scale(1.5);}
+.menuEdad button span {display: block}
+button:focus, input:focus {outline: 0}
+
+/* Formulario de Registro */
+.formRegistro {max-width: 600px; margin-bottom: 100px; background: #fff}
+.formRegistro label {padding-left: 20px;}
+.ancho100 {width: 100%; display: inline-block;}
+.ancho60 {width: 60% !important; display: inline-block }
+.ancho40 {width: 40%; display: inline-block;}
+.ancho20 {width: 18%; display: inline-block;}
+.combo {margin-bottom: 20px;}
+.masEan {background: url(../images/mas.png) no-repeat; width: 36px; height: 36px; border: 0; margin-left: 10px; margin-right: 5px; cursor: pointer}
+.ean {margin-bottom: 20px}
+.observacion {font-size: 0.8em;position: relative; top: -12px; left: 5px;}
+.observacion2 {font-size: 0.9em;}
+
+.check {}
+.check input[type="checkbox"] {float: left; margin-bottom: 1em; margin-right: 0.5em; position: relative; top: 0px}
+.check label {display: block}
+
+/* Bases y condiciones */
+/*#masBases {display: none}*/
+
+/* Productos */
+.prodContent {position: relative;}
+.prodContent h3 {margin-bottom: 0.1em; font-size: 1.3em}
+.prodContent h3+p {margin-top: 0; margin-bottom: 3em}
+.prodImg {text-align: center; max-width: 600px;}
+.globoProd {position: absolute; text-align: left}
+.globoProd h2 {font-size: 20px; font-weight: 600; margin: 0}
+.globoProd ul {padding-left: 15px}
+.edad {color: #e2002c; font-weight: 600; font-size: 18px; margin-top: 5px}
+.edadSm {color: #e2002c; font-weight: 600; font-size: 18px;margin: 0; }
+	/* 02 */
+	.prodContent h3.t02, .globoProd.gl02 h2 {color: #98cb4f}
+	.globoProd.gl02 {background: url(../images/globo02.svg) no-repeat; background-size: cover; width: 446px; height: 381px; box-sizing:border-box; bottom:0; left:280px; padding: 50px 50px 0 140px;}
+	.globoProd .ul02 li {list-style-image: url(../images/punto02.svg);}
+	/* 2+ */
+	.prodContent h3.t2, .globoProd.gl2 h2 {color: #e1a900}
+	.globoProd.gl2 {background: url(../images/globo2.svg) no-repeat; background-size: cover; width: 418px; height: 359px; box-sizing:border-box; bottom:10px; left:-160px; padding: 60px 125px 0 70px;}
+	.globoProd .ul2 li {list-style-image: url(../images/punto2.svg);}
+	/* 25 */
+	.prodContent h3.t25, .globoProd.gl25a h2, .globoProd.gl25b h2 {color: #f2a100}
+	.globoProd.gl25a {background: url(../images/globo25-a.svg) no-repeat; background-size: cover; width: 364px; height: 313px; box-sizing:border-box; bottom:-10px; left:-230px; padding: 50px 95px 0 65px;}
+	.globoProd.gl25b {background: url(../images/globo25-b.svg) no-repeat; background-size: cover; width: 440px; height: 396px; box-sizing:border-box; bottom:50px; right:-50px; padding: 65px 50px 0 140px;}
+	.globoProd .ul25 li {list-style-image: url(../images/punto25.svg);}
+	/* 5 */
+	.prodContent h3.t5, .globoProd.gl5a h2, .globoProd.gl5b h2 {color: #a778af}
+	.globoProd.gl5a {background: url(../images/globo5-a.svg) no-repeat; background-size: cover; width: 375px; height: 325px; box-sizing:border-box; bottom:30px; left:-250px; padding: 45px 110px 0 70px;}
+	.globoProd.gl5b {background: url(../images/globo5-b.svg) no-repeat; background-size: cover; width: 490px; height: 430px; box-sizing:border-box; bottom:60px; right:-50px; padding: 85px 45px 0 155px;}
+	.globoProd .ul5 li {list-style-image: url(../images/punto5.svg);}
+	/* 6 */
+	.prodContent h3.t6, .globoProd.gl6a h2, .globoProd.gl6b h2 {color: #5f147d}
+	.globoProd.gl6a {background: url(../images/globo6-a.svg) no-repeat; background-size: cover; width: 240px; height: 305px; top:190px; left:-330px; padding: 50px 135px 0 75px;}
+	.globoProd.gl6a p {margin:0; line-height: 1.12em}
+	.globoProd.gl6b {background: url(../images/globo6-b.svg) no-repeat; background-size: cover; width: 370px; height: 320px; box-sizing:border-box; bottom:50px; right: 0; padding: 90px 45px 0 125px;}
+	.globoProd .ul6 li {list-style-image: url(../images/punto6.svg);}
+
+.btn.linkColgate {margin-right: -20px !important}
+.logoColgate {position: relative; top:5px; left: 5px}
+
+/* Footer */
+footer {width: 100%; height: 80px; text-align: center; font-size: 14px;}
+.copyright {font-size: 14px; color: #2d2d2d; letter-spacing: 0.2px;text-align: center; margin-bottom: 12px;}
+.copyright a { font-size: 14px; color: #505050; text-decoration: underline;}
+.copyright a:hover {color: #c00;}   
+.brand a { display: block; width: 220px; height: 23px; margin: 0 auto; background: url(../images/cp.png) center center; text-align: center;}
+.brand a:hover {background: url(../images/cp_hover.png) center center;}
+
+/* Botones */
+.btn {background: #ffde3d; border: none; color: #e2002c; display: inline-block; padding:0 15px; border-radius: 17px; font-weight: 600; font-size: 20px; height: 35px; line-height: 35px; cursor: pointer;}
+
+input[type="text"], input[type="email"] {border:2px solid red; display: inline-block; padding:0 15px; border-radius: 17px; text- font-weight: 600; font-size: 20px; height: 32px; line-height: 32px; width: 100%; box-sizing:border-box; vertical-align: middle;}
+input[type="submit"] {font-family: 'Roboto Condensed', sans-serif;}
+
+.contentUp {width: 100%; position: fixed; bottom: 0; left:0; z-index: 999}
+.scrollUp{ width:60px; height:60px; opacity:0.9; position:fixed; z-index: 999; bottom:20px; right:25px; display:none; background: url(../images/up.png) no-repeat; border-radius: 50%; -webkit-border-radius: 50%; -moz-border-radius: 50%; -o-border-radius: 50%;}
+
+/*
+    DIV LOADING
+*/
+#divLoading {display: none; position: fixed; top: 0; left: 0; z-index: 5000; width: 100%; height: 100%; text-align: center; background: rgba(255,255,255,0.7);}
+#divLoading img {position: absolute; top: 50%; left:50%; margin-top: -24px; margin-left: -24px}
+#divLoading p {position: absolute; top:40%; width: 100%; font-size: 1.6em;}
+
+
+/* M E D I A  Q U E R Y */
+
+@media screen and (max-width: 1300px){
+	body{background: url(../images/bg-body2.jpg) no-repeat 50% 15%}
+	.premiosGde {width: 40%; right: 20px; bottom: 50px;}
+	h2.presentacion {font-size: 39px; line-height: 39px; margin: 0 0 0 30px; width: 40%; top:-135px;}
+	.microGde {width: 70%; left:-40px; top:-20px; } 
+	.colContent {padding-right: 3em}
+	.masProd img{width: 80%}
+}
+
+@media screen and (max-width: 1200px){
+	nav.menuPc {right: 30px}
+}
+
+@media screen and (max-width: 1100px){
+	body{background: url(../images/bg-body2.jpg) no-repeat 50% 50%;}
+	#inicio {min-height: 800px;margin-bottom: 30px;}
+	.premiosGde {right: 20px; bottom: 0px;} /* width: 480px; */
+	h2.presentacion {font-size: 38px; top:-100px;}
+}
+
+@media screen and (max-width: 1000px){
+	nav.menuPc {transform:scale(0.8); -webkit-transform:scale(0.8); -moz-transform:scale(0.8); -o-transform:scale(0.8); right:-10px; top:50px;}
+	.premiosGde {right: 40px; top: 360px;} /* width: 450px; */
+	h2.presentacion {font-size: 35px; top:-90px; line-height:36px }
+}
+
+@media screen and (max-width: 880px){
+	.colMenu {width: 30%;}
+	ul.menuProd {transform: scale(0.7); -webkit-transform: scale(0.7); -moz-transform: scale(0.7); -o-transform: scale(0.7);position: absolute; top: -70px; left: -70px;}
+	.colContent {margin-left: 31%; padding-right: 0}
+
+	.globoProd {position: relative;}
+	.globoProd.gl02, .globoProd.gl2, .globoProd.gl25a, .globoProd.gl25b, .globoProd.gl5a, .globoProd.gl5b, .globoProd.gl6a, .globoProd.gl6b {background: #fff; box-sizing:border-box; border-width: 8px; border-style: solid; width: 100%; padding: 20px; height: auto; left:0; bottom:0; top: 0; right: 0; margin-bottom: 20px; border-radius: 20px; -webkit-border-radius: 20px; -moz-border-radius: 20px; -o-border-radius: 20px;}
+	/* 02 */
+	.globoProd.gl02 { border-color: #98cb4f;}
+	/* 2+ */
+	.globoProd.gl2 {border-color: #e1a900;}
+	/* 25 */
+	.globoProd.gl25a {border-color: #f2a100;}
+	.globoProd.gl25b {border-color: #f2a100;}
+	/* 5 */
+	.globoProd.gl5a {border-color: #a778af;}
+	.globoProd.gl5b {border-color: #a778af;}
+	/* 6 */
+	.globoProd.gl6a {border-color: #5f147d;}
+	.globoProd.gl6b {border-color: #5f147d;}
+}
+
+@media screen and (max-width: 880px) and (orientation: landscape){
+    body{background: url(../images/bg-body3.jpg) no-repeat 50% 40%;}
+    #inicio {margin-top: 20px; min-height: 600px;}
+    .premiosGde { bottom: -85px;}
+	h2.presentacion {top:-80px; font-size: 28px; line-height: 29px; width: 45%}
+	nav.menuPc {top:20px;}
+
+}
+
+@media screen and (max-width: 880px) and (orientation: portrait){
+    body{background: url(../images/bg-body3.jpg) no-repeat 50% 0;}
+    #inicio {min-height:800px; margin-top: 50px;}
+    .premiosGde {bottom: -100px; right:3%;}
+	h2.presentacion {top: -50px; width: 45%;}
+}
+
+@media screen and (max-width: 720px){
+	.colMenu {width: 28%;}
+	ul.menuProd {transform: scale(0.6); -webkit-transform: scale(0.6); -moz-transform: scale(0.6); -o-transform: scale(0.6);position: absolute; top: -70px; left: -70px;}
+	.colContent {margin-left: 30%; padding-right: 0}
+	.menuEdad li {width: 18%; height: auto}
+	.menuEdad li button {width: 100%; height: auto}
+	.menuEdad button img {width: 100%; height: auto}
+}
+
+@media screen and (max-width: 680px) and (orientation: landscape){
+    body{background: url(../images/bg-body3.jpg) no-repeat 50% 20%;}
+    h2.presentacion {top: -50px;}
+}
+
+@media screen and (max-width: 600px){
+	#inicio {min-height:auto; height: auto }
+	.colMenu {display: none;}
+	.colContent {width: 100%; margin: 0 auto; text-align: left}
+}
+
+@media screen and (max-width: 600px) and (orientation: landscape){
+	body{background: url(../images/bg-body3.jpg) no-repeat 50% 56%; }
+	nav.menuPc {transform:scale(0.6); -webkit-transform:scale(0.6); -moz-transform:scale(0.6); -o-transform:scale(0.6); right: -12%; top: -10%;}
+	.microGde {top:-50px; } 
+	.premiosGde {top: 50%;}
+}
+@media screen and (max-width: 600px) and (orientation: portrait){
+	body{background: url(../images/bg-body4.jpg) no-repeat 50% 56%; }
+	nav.menuPc {transform:scale(0.6); -webkit-transform:scale(0.6); -moz-transform:scale(0.6); -o-transform:scale(0.6); right: -12%; top: -10%;}
+	.microGde {top:-50px; } 
+	.premiosGde {top: 50%;}
+}
+@media screen and (max-width: 590px) and (orientation: landscape){
+    body{background: url(../images/bg-body5.jpg) no-repeat 50% 10%;}
+    .premiosGde {top: 60%;}
+}
+
+@media screen and (max-width: 480px){	
+	body{background: url(../images/bg-body6.jpg) no-repeat 50% 50%;}
+	#inicio {margin-top: 70px;}
+	h1 {height: auto}
+	.h1pc {display: none;}
+	.h1mobile {display: block;}
+	nav.menuPc {display: none;}
+	nav.menuResponsive {display: block;}
+
+	.microGde {width: 100%; position: relative; z-index: 997; margin: 0 auto; left: 0}
+	.papelitosHome {width: 100%;}
+	.premiosGde {width: 100%; position: relative; bottom: 0}
+	h2.presentacion {text-align: center; margin: 0 auto; font-size: 1.5em; line-height:1.2em; width: 90%; top: -20px }
+	
+	.papelitosRegistro {display: none}
+	.formRegistro label {font-size: 1.1em; line-height: 1.6em; padding-left: 12px;}
+	.combo {margin-bottom: 15px;}
+	.comboDni {width: 100% !important}
+	.observacion {display: block;}
+	.observacion2 {font-size: 1em !important; line-height: 1.2em !important; padding-left: 30px !important;}   
+	.codigo {width: 33%; margin-bottom: 15px;}
+	.ciudad {width: 65%; margin-bottom: 15px;}
+	.prov {width: 100%}
+	.cArea {width: 33%}
+	.telContacto {width: 65%}
+	input[type="text"], input[type="email"] {height: 35px}
+	.comboEan {display: table; margin-bottom: 40px;}
+	#ean {display: table-cell; width: 85% !important}
+	.masEan{display: table-cell;}
+
+	.prodImg img {width: 100%; height: auto}
+	.papelitosProd {width: 100%; top: 200px}
+	.unicoProd img {width: 25%; height: auto; text-align: center}
+	.btn.linkColgate {margin-right: 0 !important; text-align: center}
+
+	.contentUp {width: 100%; position: fixed; bottom: 0; left:0; z-index: 999}
+	.scrollUp {background-position:center; position:absolute; bottom:10px; left:50%; margin-left: -25px; display:none;  width: 50px; height: 50px}
+	footer {margin-bottom: 100px;}
+}
+
+@media screen and (max-width: 480px) and (orientation: portrait){
+    body{background: url(../images/bg-body6.jpg) no-repeat 50% 65%; }
+    .microGde {top: -10px; position: relative;}
+    h2.presentacion {top:-25px;}
+    .premiosGde {bottom: 20px; right: 0;height: auto;}
+}
+@media screen and (max-width: 480px) and (orientation: landscape){
+    body{background: url(../images/bg-body5.jpg) no-repeat 50% 35%; }
+}
+
+@media screen and (max-width: 390px){
+	.labelEan span {display: inline-block;}
+	#ean {display: table-cell; width: 100% !important}
+	.masEan{display: inline-block;}
+	.observacion {display: inline-block;}
+}
+
+@media screen and (max-width: 340px) and (orientation: landscape){
+    body{background: url(../images/bg-body5.jpg) no-repeat 50% 15%; }
+    .microGde {top: -25px;}
+    .premiosGde {position:relative; bottom: 0; right: 0; left: 0; top: 0; height: auto;}
+}
+@media screen and (max-width: 340px) and (orientation: portrait){
+    body{background: url(../images/bg-body6.jpg) no-repeat 50% 25%; }
+}
+
+@media screen and (max-width: 440px) and (orientation: portrait){
+    body{background: url(../images/bg-body6.jpg) no-repeat 50% 40%; }
+}
