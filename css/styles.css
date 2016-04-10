@@ -36,8 +36,12 @@ nav.menuResponsive .bases:hover {background: url(../images/btn-bases-cel-hover.p
 
 .flexslider img {width: 100%; height: auto}
 .flex-control-nav, .flex-direction-nav {display: none;}
-.slideBanda {position: absolute; bottom: 0;}
-.banda {color: #fff; width:100%; position: absolute; bottom: 0;z-index: 1000;
+.slideBanda {position: absolute; bottom: 0; font-family: 'Roboto', sans-serif; max-height: 650px; text-align: right;}
+.txtSlide {position: absolute; top: 0; z-index: 999; width: 100%}
+.txtSlide h2 {color: #ed1b2e; font-weight: 500; font-size: 40px; margin: 0; letter-spacing: -1px }
+.txtSlide .bandaCeleste {background-color: rgba(100, 206, 242, 0.8); }
+.txtSlide h3 {color: #fff; font-weight: 700;font-size: 70px; margin: 0; line-height: 70px}
+.banda {color: #fff; width:100%; position: absolute; bottom: 0;z-index: 999;
 	background: rgb(136, 24, 22);
 	background: -moz-linear-gradient(90deg, rgb(136, 24, 22) 10%, rgb(218, 4, 17) 60%);
 	background: -webkit-linear-gradient(90deg, rgb(136, 24, 22) 10%, rgb(218, 4, 17) 60%);

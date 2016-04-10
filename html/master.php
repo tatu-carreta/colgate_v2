@@ -12,6 +12,8 @@ require_once (__DIR__) . '/../php/config.php';
         <link rel="shortcut icon" href="favicon.ico">
         <!-- CSS -->
         <link href="<?php echo PATH_CSS; ?>styles.css" rel="stylesheet" media="screen">
+        <link href="<?php echo PATH_CSS; ?>styleProductos.css" rel="stylesheet" media="screen">
+        <link href="<?php echo PATH_CSS; ?>jquery.jscrollpane.css" rel="stylesheet" media="all" />
         <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300,300italic,500italic,700,700italic,900' rel='stylesheet' type='text/css'>
         
@@ -29,6 +31,41 @@ require_once (__DIR__) . '/../php/config.php';
                     animationDuration: 500,
                 });
             });
+        </script>
+
+        <!-- anclas -->
+        <script type="text/javascript">
+            $(function () {
+                $('a[href*=#]:not([href=#])').click(function () {
+                    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                        var target = $(this.hash);
+                        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                        if (target.length) {
+                            $('html,body').animate({
+                                scrollTop: target.offset().top
+                            }, 1000);
+                            return false;
+                        }
+                    }
+                });
+            });
+        </script>
+
+        <!-- Botón UP -->
+        <script>
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 500) {
+                    $('.scrollUp').fadeIn();
+                } else {
+                    $('.scrollUp').fadeOut();
+                }
+            });
+            $(document).ready(function () {
+                $('.scrollUp').click(function () {
+                    $("html, body").animate({scrollTop: 0}, 600);
+                    return false;
+                });
+            })
         </script>
     </head>
     <body>
@@ -64,5 +101,12 @@ require_once (__DIR__) . '/../php/config.php';
         </div>
 
         <script src="<?php echo PATH_JS ?>jqFuncs.js"></script>
+        <script src="<?php echo PATH_JS ?>jquery.easing.1.3.js"></script>
+        <!-- the jScrollPane script -->
+        <script src="<?php echo PATH_JS ?>jquery.mousewheel.js"></script>
+        <script src="<?php echo PATH_JS ?>jquery.contentcarousel.js"></script>
+        <script type="text/javascript">
+            $('#ca-container').contentcarousel();
+        </script>
     </body>
 </html>

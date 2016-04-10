@@ -1,5 +1,16 @@
 <section id="inicio">
 	<div class="slideBanda">
+		<div class="txtSlide">
+			<div class="container">
+				<h2>¡Da tu mejor aliento!</h2>
+			</div>
+			<div class="bandaCeleste">
+				<div class="container">
+					<h3>Acercate más</h3>
+				</div>
+			</div>
+		</div>
+
 		<!-- S L I D E -->
 	    <div class="flexslider">
 			<ul class="slides">
