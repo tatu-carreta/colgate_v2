@@ -9,12 +9,12 @@
 						<div class="ca-item-main">
 							<img src="<?php echo PATH_IMAGES; ?>productos/01-infinit.jpg">
 							<h3>Colgate® Plax Ice Infinity</h3>
-							<a href="#" class="ca-more"><span>Más información</span></a>
+							<a href="" class="ca-more"><span>Más información</span></a>
 						</div>
 						<div class="ca-content-wrapper">
 							<div class="ca-content">
 								<h6>Colgate® Plax Ice Infinity</h6>
-								<a href="#" class="ca-close"><span>Cerrar</span></a>
+								<a href="" class="ca-close"><span>Cerrar</span></a>
 								<div class="ca-content-text">
 									<p>Limpia profundamente proporcionando frescura intensa y aliento fresco y duradero.</p>
 									<p>12 horas de protección contra la placa y las bacterias.</p>
@@ -30,12 +30,12 @@
 						<div class="ca-item-main">
 							<img src="<?php echo PATH_IMAGES; ?>productos/02-2en1verde.jpg">
 							<h3>Colgate® Plax Ice Infinity</h3>
-							<a href="#" class="ca-more"><span>Más información</span></a>
+							<a href="" class="ca-more"><span>Más información</span></a>
 						</div>
 						<div class="ca-content-wrapper">
 							<div class="ca-content">
 								<h6>Colgate® Plax Ice Infinity</h6>
-								<a href="#" class="ca-close"><span>Cerrar</span></a>
+								<a href="" class="ca-close"><span>Cerrar</span></a>
 								<div class="ca-content-text">
 									<p>Limpia profundamente proporcionando frescura intensa y aliento fresco y duradero.</p>
 									<p>12 horas de protección contra la placa y las bacterias.</p>
@@ -51,12 +51,12 @@
 						<div class="ca-item-main">
 							<img src="<?php echo PATH_IMAGES; ?>productos/03-2en1azul.jpg">
 							<h3>Colgate® Plax Ice Infinity</h3>
-							<a href="#" class="ca-more"><span>Más información</span></a>
+							<a href="" class="ca-more"><span>Más información</span></a>
 						</div>
 						<div class="ca-content-wrapper">
 							<div class="ca-content">
 								<h6>Colgate® Plax Ice Infinity</h6>
-								<a href="#" class="ca-close"><span>Cerrar</span></a>
+								<a href="" class="ca-close"><span>Cerrar</span></a>
 								<div class="ca-content-text">
 									<p>Limpia profundamente proporcionando frescura intensa y aliento fresco y duradero.</p>
 									<p>12 horas de protección contra la placa y las bacterias.</p>
@@ -72,12 +72,12 @@
 						<div class="ca-item-main">
 							<img src="<?php echo PATH_IMAGES; ?>productos/04-herbal.jpg">
 							<h3>Colgate® Plax Ice Infinity</h3>
-							<a href="#" class="ca-more"><span>Más información</span></a>
+							<a href="" class="ca-more"><span>Más información</span></a>
 						</div>
 						<div class="ca-content-wrapper">
 							<div class="ca-content">
 								<h6>Colgate® Plax Ice Infinity</h6>
-								<a href="#" class="ca-close"><span>Cerrar</span></a>
+								<a href="" class="ca-close"><span>Cerrar</span></a>
 								<div class="ca-content-text">
 									<p>Limpia profundamente proporcionando frescura intensa y aliento fresco y duradero.</p>
 									<p>12 horas de protección contra la placa y las bacterias.</p>
@@ -93,12 +93,12 @@
 						<div class="ca-item-main">
 							<img src="<?php echo PATH_IMAGES; ?>productos/05-soft-mint.jpg">
 							<h3>Colgate® Plax Ice Infinity</h3>
-							<a href="#" class="ca-more"><span>Más información</span></a>
+							<a href="" class="ca-more"><span>Más información</span></a>
 						</div>
 						<div class="ca-content-wrapper">
 							<div class="ca-content">
 								<h6>Colgate® Plax Ice Infinity</h6>
-								<a href="#" class="ca-close"><span>Cerrar</span></a>
+								<a href="" class="ca-close"><span>Cerrar</span></a>
 								<div class="ca-content-text">
 									<p>Limpia profundamente proporcionando frescura intensa y aliento fresco y duradero.</p>
 									<p>12 horas de protección contra la placa y las bacterias.</p>
@@ -114,12 +114,12 @@
 						<div class="ca-item-main">
 							<img src="<?php echo PATH_IMAGES; ?>productos/06-classic.jpg">
 							<h3>Colgate® Plax Ice Infinity</h3>
-							<a href="#" class="ca-more"><span>Más información</span></a>
+							<a href="" class="ca-more"><span>Más información</span></a>
 						</div>
 						<div class="ca-content-wrapper">
 							<div class="ca-content">
 								<h6>Colgate® Plax Ice Infinity</h6>
-								<a href="#" class="ca-close"><span>Cerrar</span></a>
+								<a href="" class="ca-close"><span>Cerrar</span></a>
 								<div class="ca-content-text">
 									<p>Limpia profundamente proporcionando frescura intensa y aliento fresco y duradero.</p>
 									<p>12 horas de protección contra la placa y las bacterias.</p>
@@ -134,6 +134,7 @@
 					<!-- cierran items -->
 				</div>
 			</div>
+		<div class="divDivisor"><img src="<?php echo PATH_IMAGES; ?>divisor.svg" alt="Colgate"></div>	
     </div>
-    <div class="divDivisor"><img src="<?php echo PATH_IMAGES; ?>divisor.svg" alt="Colgate"></div>
+    
 <section>
