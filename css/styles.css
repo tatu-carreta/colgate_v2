@@ -68,6 +68,9 @@ h1 .colgatePlaxH1 {display: inline-block; margin: 0 0.2em; vertical-align: text-
 
 button:focus, input:focus {outline: 0}
 
+/* Productos */
+
+
 /* Formulario de Registro */
 .formRegistro {max-width: 600px; margin:0 auto 100px; background: #fff}
 .formRegistro label {padding-left: 20px;}
@@ -87,9 +90,6 @@ button:focus, input:focus {outline: 0}
 
 /* Bases y condiciones */
 /*#masBases {display: none}*/
-
-/* Productos */
-
 
 .btn.linkColgate {margin-right: -20px !important}
 .logoColgate {position: relative; top:5px; left: 5px}

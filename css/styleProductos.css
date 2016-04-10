@@ -83,7 +83,6 @@
 	text-indent:0px;
 }
 .ca-content-wrapper{
-	background:#b0ccc6;
 	position:absolute;
 	width:0px; /* expands to width of the wrapper minus 1 element */
 	height:440px;
@@ -97,11 +96,8 @@
 	overflow:hidden;
 }
 .ca-content-text{
-	font-size: 14px;
-	font-style: italic;
 	margin:10px 20px;
 	padding:10px 20px;
-	line-height:24px;
 }
 .ca-content-text p{
 	padding-bottom:5px;
@@ -116,8 +112,8 @@
 	text-shadow: 1px 1px 1px #99BCB4;
 }
 .ca-nav span{
-	width:25px;
-	height:38px;
+	width:30px;
+	height:30px;
 	background:transparent url(../images/arrows.png) no-repeat top left;
 	position:absolute;
 	top:50%;
@@ -131,7 +127,7 @@
 .ca-nav span.ca-nav-next{
 	background-position:top right;
 	left:auto;
-	right:-40px;
+	right:-30px;
 }
 .ca-nav span:hover{
 	opacity:1.0;

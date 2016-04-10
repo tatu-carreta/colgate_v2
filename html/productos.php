@@ -20,7 +20,7 @@
 									<p>12 horas de protección contra la placa y las bacterias.</p>
 									<p>Intensa y notable frescura.</p>
   									<p>Ayuda a reducir hasta el 99.9% de los gérmenes*.</p>
-									<p>*Producto cosmético sin acción terapéutica, ayuda a reducir hasta el 99.9% de A. actinomycetemcomitans y S. mutans.</p>
+									<p class="observacion">*Producto cosmético sin acción terapéutica, ayuda a reducir hasta el 99.9% de A. actinomycetemcomitans y S. mutans.</p>
 								</div>
 							</div>
 						</div>
