@@ -17,7 +17,7 @@ require_once (__DIR__) . '/../php/config.php';
         <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300,300italic,500italic,700,700italic,900' rel='stylesheet' type='text/css'>
         
-        <script src="<?php echo PATH_JS ?>jquery-1.11.2.min.js"></script>
+        <script src="<?php echo PATH_JS ?>jquery-1.8.0.min.js"></script>
         <script type="text/javascript">
             var PATH_CONTROLLER = '<?php echo PATH_CONTROLLER ?>';
             var PATH_HOME = '<?php echo PATH_HOME ?>';
@@ -89,8 +89,8 @@ require_once (__DIR__) . '/../php/config.php';
 
         <!-- FOOTER -->
         <footer>
-            <p class="copyright"> © 2016 <a onclick="javascript:sendLinkEvent('', 'www.volviendoalcole.com.ar/www.colgatepalmolive.com.ar');" href="http://www.colgatepalmolive.com.ar" target="_blank">Colgate-Palmolive Company</a>. Todos los derechos reservados. Usted está viendo la página de Argentina. <br>Vea nuestras <a onclick="javascript:sendLinkEvent('', 'www.volviendoalcole.com.ar/www.colgate.com.ar/app/Colgate/AR/Corp/LegalPrivacy.cvsp');" href="http://www.colgate.com.ar/app/Colgate/AR/Corp/LegalPrivacy.cvsp" target="_blank">Políticas de Privacidad</a>. </p> 
-            <p class="brand"> <a onclick="javascript:sendLinkEvent('', 'www.volviendoalcole.com.ar/www.colgatepalmolive.com.ar');" href="http://www.colgatepalmolive.com.ar" target="_blank"></a> </p>
+            <p class="copyright"> © 2016 <a href="http://www.colgatepalmolive.com.ar" target="_blank">Colgate-Palmolive Company</a>. Todos los derechos reservados. Usted está viendo la página de Argentina. <br>Vea nuestras <a href="http://www.colgate.com.ar/app/Colgate/AR/Corp/LegalPrivacy.cvsp" target="_blank">Políticas de Privacidad</a>. </p> 
+            <p class="brand"> <a href="http://www.colgatepalmolive.com.ar" target="_blank"></a> </p>
         </footer>
 
         <div class="contentUp"><a href="#" class="scrollUp"></a></div>
@@ -100,6 +100,13 @@ require_once (__DIR__) . '/../php/config.php';
             <p>Espere un momento por favor.</p>
         </div>
 
+        <script>
+            $(document).ready(function () {
+                $('#masBases').hide();
+                // $('.globoProd').hide();
+            });
+        </script>
+        
         <script src="<?php echo PATH_JS ?>jqFuncs.js"></script>
         <script src="<?php echo PATH_JS ?>jquery.easing.1.3.js"></script>
         <!-- the jScrollPane script -->
