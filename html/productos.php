@@ -13,15 +13,15 @@
 						</div>
 						<div class="ca-content-wrapper">
 							<div class="ca-content">
-								<h6>Colgate® Plax Ice Infinity</h6>
 								<a href="" class="ca-close"><span>Cerrar</span></a>
 								<div class="ca-content-text">
 									<p>Limpia profundamente proporcionando frescura intensa y aliento fresco y duradero.</p>
-									<p>12 horas de protección contra la placa y las bacterias.</p>
+									<p class="red">12 horas de protección contra la placa y las bacterias.</p>
 									<p>Intensa y notable frescura.</p>
-  									<p>Ayuda a reducir hasta el 99.9% de los gérmenes*.</p>
+  									<p class="red">Ayuda a reducir hasta el 99.9% de los gérmenes*.</p>
 									<p class="observacion">*Producto cosmético sin acción terapéutica, ayuda a reducir hasta el 99.9% de A. actinomycetemcomitans y S. mutans.</p>
 								</div>
+
 							</div>
 						</div>
 					</div>

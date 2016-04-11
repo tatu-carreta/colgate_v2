@@ -12,6 +12,7 @@ ul, li {list-style: none; padding: 0; margin: 0px;}
 a {text-decoration: none;}
 button span {display: none;}
 .clear {clear: both;}
+.red {color: #e2002c}
 
 /* Poste Menú Superior */
 nav { }
@@ -34,10 +35,13 @@ nav.menuResponsive .prod:hover {background: url(../images/btn-productos-cel-hove
 nav.menuResponsive .bases {background: url(../images/btn-bases-cel.png) no-repeat; left:205px; z-index: 15} 
 nav.menuResponsive .bases:hover {background: url(../images/btn-bases-cel-hover.png) no-repeat;} 
 
-.flexslider img {width: 100%; height: auto}
+.flexslider {position: absolute; bottom: 0; height: 100%; overflow: hidden;}
+.flexslider li {height: 100%; width: 100%}
+.flexslider img {height: 100%; width: auto; }
 .flex-control-nav, .flex-direction-nav {display: none;}
-.slideBanda {position: absolute; bottom: 0; font-family: 'Roboto', sans-serif; max-height: 650px; text-align: right;}
-.txtSlide {position: absolute; top: 0; z-index: 999; width: 100%}
+.slideBanda {font-family: 'Roboto', sans-serif; height: 100%; text-align: right;}
+/*.slideBanda {position: absolute; bottom: 0; font-family: 'Roboto', sans-serif; max-height: 650px; text-align: right;}*/
+.txtSlide {position: absolute; top: 10%; z-index: 999; width: 100%}
 .txtSlide h2 {color: #ed1b2e; font-weight: 500; font-size: 40px; margin: 0; letter-spacing: -1px }
 .txtSlide .bandaCeleste {background-color: rgba(100, 206, 242, 0.8); }
 .txtSlide h3 {color: #fff; font-weight: 700;font-size: 70px; margin: 0; line-height: 70px}
@@ -53,7 +57,8 @@ h1 .colgatePlaxH1 {display: inline-block; margin: 0 0.2em; vertical-align: text-
 
 /*section {height: 100%;}*/
 #inicio {}
-#productos .container, #registro .container {height: 100%; padding-top: 10px;} 
+
+#productos .container, #registro .container {height: 100%; padding-top: 40px;} 
 #bases {min-height: 700px}
 #bases .colContent {padding-top: 0.1em;}
 .colMenu {width: 327px; float: left; position: relative; z-index: 100}
