@@ -17,7 +17,7 @@ button span {display: none;}
 /* Poste Menú Superior */
 nav { }
 nav span {display: none}
-nav.menuPc {position: absolute; z-index: 1000; top:50px;}
+nav.menuPc {position: fixed; z-index: 1000; top:50px;}
 nav.menuPc span {display: none}
 nav.menuPc li {display: block}
 nav.menuPc a {display: block; width: 140px; height: 40px;}
@@ -57,7 +57,7 @@ h1 .colgatePlaxH1 {display: inline-block; margin: 0 0.2em; vertical-align: text-
 
 /*section {height: 100%;}*/
 #inicio {}
-
+#productos {text-align: center}
 #productos .container, #registro .container {height: 100%; padding-top: 40px;} 
 #bases {min-height: 700px}
 #bases .colContent {padding-top: 0.1em;}
@@ -66,14 +66,15 @@ h1 .colgatePlaxH1 {display: inline-block; margin: 0 0.2em; vertical-align: text-
 .divDivisor {margin: 3em 0 5em}
 .divDivisor img {width: 100%; height: auto}
 
-/*.papelitosHome {max-width: 1200px; height: 458px; position: absolute; top: 70px; left: 0}
-.papelitosProd {max-width: 1200px; height: 458px; position: absolute; top: 70px; left: 0}
-.papelitosRegistro {max-width: 1200px; height: 458px; position: absolute; bottom: 0; left: 0; transform: rotate(180deg); -webkit-transform: rotate(180deg); -moz-transform: rotate(180deg);}
+/*.papelitosHome {max-width: 1200px; height: 458px; position: absolute; top: 70px; left: 0}*/
+.papelitosProd {max-width: 1200px; height: 458px; position: absolute; top: 70px; left: 0; z-index: -1;}
+/*.papelitosRegistro {max-width: 1200px; height: 458px; position: absolute; bottom: 0; left: 0; transform: rotate(180deg); -webkit-transform: rotate(180deg); -moz-transform: rotate(180deg);}
 .papelitosHome img, .papelitosProd img, .papelitosRegistro img {width: 100%; height: auto}*/
 
 button:focus, input:focus {outline: 0}
 
 /* Productos */
+.imgProdFicha {position: absolute; top: 0; left: 0}
 
 
 /* Formulario de Registro */
@@ -96,8 +97,8 @@ button:focus, input:focus {outline: 0}
 /* Bases y condiciones */
 /*#masBases {display: none}*/
 
-.btn.linkColgate {margin-right: -20px !important}
-.logoColgate {position: relative; top:5px; left: 5px}
+.btn.linkColgate {font-weight: 400; margin-bottom: 2em}
+.logoColgate {position: relative; top:5px; left: 5px; height: 25px}
 
 /* Footer */
 footer {width: 100%; height: 80px; text-align: center; font-size: 14px;}

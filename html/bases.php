@@ -1,6 +1,7 @@
 <!-- Section BASES -->
 <section id="bases">
     <div class="container">
+        <div class="papelitosProd"><img src="<?php echo PATH_IMAGES; ?>papelitos2.gif" alt="Colgate Plax"></div>
         <div class="colContent">
             <h3>BASES Y CONDICIONES DE LA ACCIÓN PROMOCIONAL “PROMO ACERCATE MAS COPA”</h3>
 
