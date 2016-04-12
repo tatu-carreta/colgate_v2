@@ -7,7 +7,7 @@
 function sanearDatos($tags) {
     $tags = strip_tags($tags);
     $tags = stripslashes($tags);
-    $tags = htmlentities($tags);
+    //$tags = htmlentities($tags);
     return $tags;
 }
 

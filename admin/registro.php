@@ -57,12 +57,12 @@ if ($infoValidate['estado']) {
 
         if ($registrar) {
             $data_registro = array(
-                'nomyape' => $nombre,
+                'nomyape' => utf8_encode(utf8_decode($nombre)),
                 'dni' => $dni,
-                'domicilio' => $domicilio,
+                'domicilio' => utf8_encode(utf8_decode($domicilio)),
                 'codPostal' => $codPostal,
-                'ciudad' => $ciudad,
-                'provincia' => $prov,
+                'ciudad' => utf8_encode(utf8_decode($ciudad)),
+                'provincia' => utf8_encode(utf8_decode($prov)),
                 'telefono' => $telefono,
                 'correo' => $correo,
                 'productos' => $productos,

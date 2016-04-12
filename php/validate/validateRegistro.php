@@ -25,9 +25,9 @@ function validarEnviarRegistro() {
         if (isset($_POST['prods']) && (is_array($_POST['prods']))) {
             $prodOk = true;
             foreach ($_POST['prods'] as $prod) {
-                if (($prod != "") && (!is_numeric($prod))) {
+                if (($prod != "") && ((!is_numeric($prod)) || (strlen($prod) != 13))) {
                     $prodOk = false;
-                    $text = "Problema en el/los EAN ingresados.";
+                    $text = "Problema en el/los EAN ingresados. Deben contener 13 dígitos.";
                     break;
                 }
             }
