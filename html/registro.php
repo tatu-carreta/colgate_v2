@@ -10,7 +10,7 @@
                 <input type="text" name="nombap" id="nomyap" class="ancho100">-->
             </div>
             <div class="combo comboDni ancho60">
-                <label for="dni">DNI</label><br>
+                <label for="dni">DNI (mayor a 18 años)</label><br>
                 <input id="dni" type="text" name="dni" class="num" required="">
                 <!--<label for="dni">DNI</label><br>
                 <input type="text" name="dni" id="dni">-->
