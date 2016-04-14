@@ -11,18 +11,18 @@ date_default_timezone_set("America/Argentina/Buenos_Aires");
   @Maximiliano
  */
 
-$localhost = true; //define si se esta trabajando a modo local o no
+$localhost = false; //define si se esta trabajando a modo local o no
 
 $proyecto = "COLGATE 2";
 
 if (!$localhost) {
-/*
+
     switch ($_SERVER['HTTP_HOST']) {
-        case "laurachuburu.com.ar":
-            define("URL_TOTAL", "http://laurachuburu.com.ar/jor/colgate/");
+        case "promoplax.com.ar":
+            define("URL_TOTAL", "http://promoplax.com.ar/promo/");
             break;
-        case "www.laurachuburu.com.ar":
-            define("URL_TOTAL", "http://www.laurachuburu.com.ar/jor/colgate/");
+        case "www.promoplax.com.ar":
+            define("URL_TOTAL", "http://www.promoplax.com.ar/promo/");
             break;
     }
 
@@ -30,12 +30,11 @@ if (!$localhost) {
     define("DB_PASS", "Colgate_05");
     define("DB_HOST", "localhost");
     define("DB_SELECTED", "laura1_colgate");
- * 
- */
+
 
 } else {
 
-    define("URL_TOTAL", "http://localhost/colgate_v2/");
+    define("URL_TOTAL", "http://www.promoplax.com.ar/promo/");
     define("DB_USER", "root");
     define("DB_PASS", "");
     define("DB_HOST", "localhost");

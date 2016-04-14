@@ -14,21 +14,21 @@
 		<!-- S L I D E -->
 	    <div class="flexslider">
 			<ul class="slides">
-			    <li>
-			    	<img src="<?php echo PATH_IMAGES; ?>slide1.jpg" alt="Comprando Colgate Plax participá por increíbles premios">
+			    <li class="foto1">
+			    	<!-- <img src="<?php echo PATH_IMAGES; ?>slide1.jpg" alt="Comprando Colgate Plax participá por increíbles premios">
 			    	<div class="container">
 				    	<div class="flex-caption hogar">
 				    		
 				    	</div>
-				    </div>
+				    </div> -->
 			    </li>
-			    <li>
-			    	<img src="<?php echo PATH_IMAGES; ?>slide2.jpg" alt="Comprando Colgate Plax participá por increíbles premios">
+			    <li class="foto2">
+			    	<!-- <img src="<?php echo PATH_IMAGES; ?>slide2.jpg" alt="Comprando Colgate Plax participá por increíbles premios">
 			    	<div class="container">
 				    	<div class="flex-caption hogar">
 				    		
 				    	</div>
-				    </div>
+				    </div> -->
 			    </li>
 			</ul>
 		</div>
