@@ -4,7 +4,7 @@ require_once (__DIR__) . '/../php/config.php';
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <title>Colgate 2</title>
+        <title>Promo Colgate Plax</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">
@@ -16,7 +16,7 @@ require_once (__DIR__) . '/../php/config.php';
         <link href="<?php echo PATH_CSS; ?>jquery.jscrollpane.css" rel="stylesheet" media="all" />
         <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300,300italic,500italic,700,700italic,900' rel='stylesheet' type='text/css'>
-        
+
         <!-- owl carousel para responsive -->
         <link rel="stylesheet" href="<?php echo PATH_CSS; ?>owl.carousel.css">
         <link rel="stylesheet" href="<?php echo PATH_CSS; ?>owl.theme.css">
@@ -29,7 +29,7 @@ require_once (__DIR__) . '/../php/config.php';
         </script> 
         <script src="<?php echo PATH_JS ?>jquery.flexslider.js"></script>
         <script>
-            $(window).load(function() {
+            $(window).load(function () {
                 $('.flexslider').flexslider({
                     animation: "fade",
                     slideshowSpeed: 3000,
@@ -76,19 +76,35 @@ require_once (__DIR__) . '/../php/config.php';
         <!-- Include Owl Carousel -->
         <script src="<?php echo PATH_JS ?>owl.carousel.min.js"></script>
         <script>
-            $(document).ready(function() {
+            $(document).ready(function () {
                 $("#owl-demo").owlCarousel({
                     autoPlay: true, //Set AutoPlay to 3 seconds
-                    items : 3,
-                    itemsDesktopSmall : [979,3],
-                    itemsTablet: [768,2],
-                    itemsMobile : [479,1]
-                    });
+                    items: 3,
+                    itemsDesktopSmall: [979, 3],
+                    itemsTablet: [768, 2],
+                    itemsMobile: [479, 1]
                 });
+            });
         </script>
     </head>
     <body>
-        
+        <script>
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                        m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', 'UA-73999373-2', 'auto');
+            ga('send', 'pageview');
+
+        </script>
         <header>
             <nav class="menuPc">
                 <ul>
@@ -99,12 +115,12 @@ require_once (__DIR__) . '/../php/config.php';
             </nav>
         </header>
 
-        <?php
-        require_once (__DIR__) . '/home.php';
-        require_once (__DIR__) . '/registro.php';
-        require_once (__DIR__) . '/productos.php';
-        require_once (__DIR__) . '/bases.php';
-        ?>
+<?php
+require_once (__DIR__) . '/home.php';
+require_once (__DIR__) . '/registro.php';
+require_once (__DIR__) . '/productos.php';
+require_once (__DIR__) . '/bases.php';
+?>
 
         <!-- FOOTER -->
         <footer>
@@ -125,7 +141,7 @@ require_once (__DIR__) . '/../php/config.php';
                 // $('.globoProd').hide();
             });
         </script>
-        
+
         <script src="<?php echo PATH_JS ?>jqFuncs.js"></script>
         <script src="<?php echo PATH_JS ?>jquery.easing.1.3.js"></script>
         <!-- the jScrollPane script -->

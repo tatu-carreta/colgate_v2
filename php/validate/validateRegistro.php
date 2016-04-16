@@ -5,7 +5,7 @@ function validarEnviarRegistro() {
     $text = "";
     if (!isset($_POST['nomyape']) || ($_POST['nomyape'] == "")) {
         $text = "Problema en el Nombre y Apellido.";
-    } elseif (!isset($_POST['dni']) || ($_POST['dni'] == "") || (!is_numeric($_POST['dni']))) {
+    } elseif (!isset($_POST['dni']) || ($_POST['dni'] == "") || (!is_numeric($_POST['dni'])) || (!in_array(strlen($_POST['dni']), [7,8] ))) {
         $text = "Problema en el DNI.";
     } elseif (!isset($_POST['domicilio']) || ($_POST['domicilio'] == "")) {
         $text = "Problema en el Domicilio.";
