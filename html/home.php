@@ -13,6 +13,7 @@
 
 		<!-- S L I D E -->
 	    <div class="flexslider">
+	    	<div class="papelitosHome"><img src="<?php echo PATH_IMAGES; ?>papelitosHome.gif" alt="Colgate Plax"></div> 
 			<ul class="slides">
 			    <li class="foto1">
 			    	<!-- <img src="<?php echo PATH_IMAGES; ?>slide1.jpg" alt="Comprando Colgate Plax participá por increíbles premios">
