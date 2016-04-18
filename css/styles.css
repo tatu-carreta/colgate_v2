@@ -25,15 +25,16 @@ nav.menuPc .reg {background: url(../images/btn-registrate.png) no-repeat;}
 nav.menuPc .prod {background: url(../images/btn-productos.png) no-repeat;}
 nav.menuPc .bases {background: url(../images/btn-bases.png) no-repeat;} 
 
-nav.menuResponsive {display: none; width: 100%; height: 70px; background:#fff; position: fixed; top:0; left:0; z-index: 999}
-nav.menuResponsive ul {left: -12px; position: relative;}
-nav.menuResponsive a {width: 187px ; height: 89px; }
-nav.menuResponsive .reg {background: url(../images/btn-registrate-cel.png) no-repeat; left:-12px; z-index: 30}
-nav.menuResponsive .reg:hover {background: url(../images/btn-registrate-cel-hover.png) no-repeat;}
-nav.menuResponsive .prod {background: url(../images/btn-productos-cel.png) no-repeat; left:88px;z-index: 20}
-nav.menuResponsive .prod:hover {background: url(../images/btn-productos-cel-hover.png) no-repeat; }
-nav.menuResponsive .bases {background: url(../images/btn-bases-cel.png) no-repeat; left:205px; z-index: 15} 
-nav.menuResponsive .bases:hover {background: url(../images/btn-bases-cel-hover.png) no-repeat;} 
+nav.menuResponsive {display: none; width: 100%; height: 70px; background:#fff; position: absolute; top:0; left:0; z-index: 999}
+nav.menuResponsive ul {position: relative;}
+nav.menuResponsive li {display: inline-block;}
+nav.menuResponsive a {display: block; width: 158px ; height: 60px; position: absolute; }
+nav.menuResponsive .reg {background: url(../images/btn-registrate-r.png) no-repeat; left:0; z-index: 30}
+nav.menuResponsive .reg:hover {background: url(../images/btn-registrate-r-hover.png) no-repeat;}
+nav.menuResponsive .prod {background: url(../images/btn-productos-r.png) no-repeat; left:130px;z-index: 20}
+nav.menuResponsive .prod:hover {background: url(../images/btn-productos-r-hover.png) no-repeat; }
+nav.menuResponsive .bases {background: url(../images/btn-bases-r.png) no-repeat; left:260px; z-index: 15} 
+nav.menuResponsive .bases:hover {background: url(../images/btn-bases-r-hover.png) no-repeat;} 
 
 .slides {height: 100%}
 .flexslider {position: absolute; bottom: 0; height: 100%; overflow: hidden; width:100%; }
@@ -57,7 +58,7 @@ nav.menuResponsive .bases:hover {background: url(../images/btn-bases-cel-hover.p
 	background: -o-linear-gradient(90deg, rgb(136, 24, 22) 10%, rgb(218, 4, 17) 60%);
 	background: -ms-linear-gradient(90deg, rgb(136, 24, 22) 10%, rgb(218, 4, 17) 60%);
 	background: linear-gradient(180deg, rgb(136, 24, 22) 10%, rgb(218, 4, 17) 60%);}
-.banda h1 {font-weight: 400; text-align: center;font-family: 'Roboto', sans-serif; }
+.banda h1 {font-weight: 400; text-align: center;font-family: 'Roboto', sans-serif;}
 h1 .colgatePlaxH1 {display: inline-block; margin: 0 0.2em; vertical-align: text-top;}
 
 /*section {height: 100%;}*/
@@ -133,38 +134,45 @@ input[type="submit"] {font-family: 'Roboto Condensed', sans-serif;}
 
 /* M E D I A  Q U E R Y */
 
-@media screen and (max-width: 1300px){
-
+@media screen and (max-width: 1700px) and (orientation: landscape){
+	.txtSlide {top: 12%;}
 }
 
-@media screen and (max-width: 880px) and (orientation: landscape){
-    body{background: url(../images/bg-body3.jpg) no-repeat 50% 40%;}
-	nav.menuPc {top:20px;}
-
-}
-
-@media screen and (max-width: 880px) and (orientation: portrait){
-    body{background: url(../images/bg-body3.jpg) no-repeat 50% 0;}
+@media screen and (max-width: 1024px) and (orientation: landscape){
+	.txtSlide {top: 8%;}
+	nav.menuPc {top:40px;}
 }
 
 @media screen and (max-width: 768px){
 	.papelitosProd {width: 100%; top: 50px}
-
     .productosResponsive{display: block}
     .productosPC {display: none}
-
+}
+@media screen and (max-width: 768px) and (orientation: landscape){
+	nav.menuPc {top:10px;}
+	.txtSlide {top: 5;}
+	.txtSlide h2 {font-size: 2em; }
+	.txtSlide h3 {font-size: 3.2em; line-height: 1.1em}
+	.banda h1 {font-size: 1.2em; margin: 10px;}
+	h1 .colgatePlaxH1 {width: 25%}
+}
+@media screen and (max-width: 768px) and (orientation: portrait){
+	.txtSlide {top: 12%;}
 }
 
-
-
-@media screen and (max-width: 480px){
-	body{background: url(../images/bg-body6.jpg) no-repeat 50% 50%;}
-	h1 {height: auto}
-	.h1pc {display: none;}
-	.h1mobile {display: block;}
+@media screen and (max-width: 640px) and (orientation: portrait){
 	nav.menuPc {display: none;}
 	nav.menuResponsive {display: block;}
-	
+	.txtSlide {top:75px; text-align: center}
+}
+
+@media screen and (max-width: 480px) and (orientation: landscape){
+	nav.menuPc {display: none;}
+	nav.menuResponsive {display: block;}
+	.txtSlide {top:75px; text-align: center}
+}
+
+@media screen and (max-width: 480px){
 	.formRegistro label {font-size: 1.1em; line-height: 1.6em; padding-left: 12px;}
 	.combo {margin-bottom: 15px;}
 	.comboDni {width: 100% !important}
@@ -181,34 +189,43 @@ input[type="submit"] {font-family: 'Roboto Condensed', sans-serif;}
 	.masEan{display: table-cell;}
 
 	.prodImg img {width: 100%; height: auto}
-	.btn.linkColgate {margin-right: 0 !important; text-align: center; background: transparent; color: red}
+	.btn.linkColgate {margin: 0 !important; text-align: center; background: transparent; color: red}
 
 	.contentUp {width: 100%; position: fixed; bottom: 0; left:0; z-index: 999}
 	.scrollUp {background-position:center; position:absolute; bottom:10px; left:50%; margin-left: -25px; display:none;  width: 50px; height: 50px}
 	footer {margin-bottom: 100px;}
+	.txtSlide h2 {font-size: 2.3em; }
+	.txtSlide h3 {font-size: 3.6em; line-height: 1.2em}
+	.banda h1 {font-size: 1.3em;}
+	h1 .colgatePlaxH1 {margin: 0 0.1em; width: 45%;}
 }
 
-@media screen and (max-width: 480px) and (orientation: portrait){
-    body{background: url(../images/bg-body6.jpg) no-repeat 50% 65%; }
+@media screen and (max-width: 440px){
+		nav.menuResponsive {transform:scale(0.85); -webkit-transform:scale(0.85); -moz-transform:scale(0.85); -o-transform:scale(0.85); left: -40px}
+		.txtSlide h2, .txtSlide h3 {transform:scale(0.9); -webkit-transform:scale(0.9); -moz-transform:scale(0.9); -o-transform:scale(0.9);}
+}
+
+/*@media screen and (max-width: 480px) and (orientation: portrait){
+
 }
 @media screen and (max-width: 480px) and (orientation: landscape){
-    body{background: url(../images/bg-body5.jpg) no-repeat 50% 35%; }
-}
 
-@media screen and (max-width: 390px){
+}*/
+
+@media screen and (max-width: 395px){
 	.labelEan span {display: inline-block;}
 	#ean {display: table-cell; width: 100% !important}
 	.masEan{display: inline-block;}
 	.observacion {display: inline-block;}
+	.txtSlide h3 {font-size: 3em; line-height: 1em}
+	.txtSlide h2 {font-size: 2em; }
 }
 
-@media screen and (max-width: 340px) and (orientation: landscape){
-    body{background: url(../images/bg-body5.jpg) no-repeat 50% 15%; }
+@media screen and (max-width: 355px){
+	nav.menuResponsive {transform:scale(0.75); -webkit-transform:scale(0.75); -moz-transform:scale(0.75); -o-transform:scale(0.75); left: -50px}
 }
-@media screen and (max-width: 340px) and (orientation: portrait){
-    body{background: url(../images/bg-body6.jpg) no-repeat 50% 25%; }
-}
-
-@media screen and (max-width: 440px) and (orientation: portrait){
-    body{background: url(../images/bg-body6.jpg) no-repeat 50% 40%; }
+@media screen and (max-width: 320px){
+	.txtSlide h3 {font-size: 2em; line-height: 1em}
+	.banda h1 {font-size: 1em;}
+	h1 .colgatePlaxH1 {margin: 0 0.1em; width: 45%;}
 }

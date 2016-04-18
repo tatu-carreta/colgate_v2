@@ -4,7 +4,7 @@ require_once (__DIR__) . '/../php/config.php';
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <title>Colgate 2</title>
+        <title>Colgate Promo Plax</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">
@@ -91,6 +91,13 @@ require_once (__DIR__) . '/../php/config.php';
         
         <header>
             <nav class="menuPc">
+                <ul>
+                    <li><a href="#registro" class="reg"><span>¡Registrate!</span></a></li>
+                    <li><a href="#productos" class="prod"><span>Productos</span></a></li>
+                    <li><a href="#bases" class="bases"><span>Bases y condiciones</span></a></li>
+                </ul>
+            </nav>
+            <nav class="menuResponsive">
                 <ul>
                     <li><a href="#registro" class="reg"><span>¡Registrate!</span></a></li>
                     <li><a href="#productos" class="prod"><span>Productos</span></a></li>
