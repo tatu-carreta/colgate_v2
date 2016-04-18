@@ -11,9 +11,9 @@ date_default_timezone_set("America/Argentina/Buenos_Aires");
   @Maximiliano
  */
 
-$localhost = false; //define si se esta trabajando a modo local o no
+$localhost = true; //define si se esta trabajando a modo local o no
 
-$proyecto = "COLGATE 2";
+$proyecto = "PROMOPLAX";
 
 if (!$localhost) {
 
@@ -26,15 +26,15 @@ if (!$localhost) {
             break;
     }
 
-    define("DB_USER", "laura1_colgate");
-    define("DB_PASS", "Colgate_05");
+    define("DB_USER", "");
+    define("DB_PASS", "");
     define("DB_HOST", "localhost");
-    define("DB_SELECTED", "laura1_colgate");
+    define("DB_SELECTED", "");
 
 
 } else {
 
-    define("URL_TOTAL", "http://www.promoplax.com.ar/promo/");
+    define("URL_TOTAL", "http://localhost/colgate_v2/");
     define("DB_USER", "root");
     define("DB_PASS", "");
     define("DB_HOST", "localhost");
