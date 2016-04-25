@@ -23,20 +23,14 @@
 				    	</div>
 				    </div> -->
 			    </li>
-			    <!-- <li class="foto2">
-			    	<img src="<?php echo PATH_IMAGES; ?>slide2.jpg" alt="Comprando Colgate Plax participá por increíbles premios">
-			    	<div class="container">
-				    	<div class="flex-caption hogar">
-				    		
-				    	</div>
-				    </div>
-			    </li> -->
 			</ul>
 		</div>
 		<div class="banda">
-			<div class="container">
-				<h1>Comprando <img class="colgatePlaxH1" src="<?php echo PATH_IMAGES; ?>logo-colgate-plax.png" alt="Colgate Plax">participá por increíbles premios</h1>
+			<div class="bandaI"><img src="<?php echo PATH_IMAGES; ?>colgate12.png" alt="Colgate Plax"></div>
+			<div class="bandaD">
+				<h1>Comprando <img class="colgatePlaxH1" src="<?php echo PATH_IMAGES; ?>logo-colgate-plax.png" alt="Colgate Plax"><br>participá por increíbles premios</h1>
 			</div>
+			<div class="clear"></div>
 		</div>
 	</div>
 </section>

@@ -9,7 +9,7 @@
 .ca-close:hover{opacity:1.0;}
 .ca-more span, .ca-close span {display: none;}
 
-.ca-item-main{position:absolute;top:1px;left:5px;right: 5px; bottom:1px;background:#fff;overflow:hidden;border-left: 2px solid red; border-bottom: 2px solid red;}
+.ca-item-main{position:absolute;top:1px;left:5px;right: 5px; bottom:1px;background:#fff;overflow:hidden;border-left: 2px solid #e2002c; border-bottom: 2px solid #e2002c;}
 .ca-item-main img {width: 100%; height: auto}
 
 
@@ -29,8 +29,8 @@
 .ca-item-14 .ca-content-wrapper {background: url(../images/productos/14-kids-desplegado.jpg) no-repeat; background-size: auto 100%;}
 .ca-item-15 .ca-content-wrapper {background: url(../images/productos/15-magic-desplegado.jpg) no-repeat; background-size: auto 100%;}
 
-.ca-item h3{font-family: 'Roboto Condensed', sans-serif; font-size:1.35em;font-weight: 600; line-height:1em;color:red; margin: 0 0 15px 12px;text-align:left;position: absolute;bottom: 0px; height: 40px;}
-.ca-item h3 span{color: #000; font-weight: 400; font-size: 0.8em }
+.ca-item h3{font-family: 'Roboto Condensed', sans-serif; font-size:1.35em;font-weight: 600; line-height:1em;color:#e2002c; margin: 0 0 15px 15px;text-align:left;position: absolute;bottom: 7px; height: 40px;}
+.ca-item h3 span{font-weight: 400; font-size: 0.8em }
 
 .ca-content-wrapper{
 	position:absolute;
@@ -75,7 +75,7 @@
 
 .productosResponsive {display: none; max-width: 600px; margin: 0 auto 3em;}
 .item {text-align: left; font-size: 16px; padding: 15px}
-.item h3 {color: red; padding-top: 10px; border-top: 2px solid red;}
+.item h3 {color: #e2002c; padding-top: 10px; border-top: 2px solid #e2002c;}
 .item p {margin: 5px 0; line-height: 17px;}
 .item .observacion {position: static; font-style: italic;}
 .item img {width: 100%; height: auto}

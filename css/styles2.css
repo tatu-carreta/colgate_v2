@@ -48,24 +48,34 @@ nav.menuResponsive .bases:hover {background: url(../images/btn-bases-r-hover.png
 .flexslider li {height: 100%; width: 100%}
 /*.flexslider img {min-height: 100%; height:auto; min-width:100%; width: auto; }*/
 
-.foto1 {background-image:url(../images/home.jpg); background-position: center top; background-size:cover;}
+.foto1 {background-image:url(../images/home2.jpg); background-position: center top; background-size:cover;}
 /*.foto2 {background-image:url(../images/slide2.jpg); background-position: center top; background-size:cover}*/
 
 .flex-control-nav, .flex-direction-nav {display: none;}
 .slideBanda {font-family: 'Roboto', sans-serif; height: 100%; text-align: right;}
 /*.slideBanda {position: absolute; bottom: 0; font-family: 'Roboto', sans-serif; max-height: 650px; text-align: right;}*/
-.txtSlide {position: absolute; top: 10%; z-index: 999; width: 100%}
+.txtSlide {position: absolute; top: 7%; z-index: 999; width: 100%}
 .txtSlide h2 {color: #ed1b2e; font-weight: 500; font-size: 3.4em; margin: 0; letter-spacing: -1px }
 .txtSlide .bandaCeleste {background-color: rgba(100, 206, 242, 0.8); }
 .txtSlide h3 {color: #fff; font-weight: 700;font-size: 5.6em; margin: 0; line-height: 1em}
-.banda {color: #fff; width:100%; position: absolute; bottom: 0;z-index: 999;
+.banda {color: #fff; width:100%; position: absolute; bottom: 0;z-index: 999; font-size: 0;
+	}
+.bandaI {width: 49%; display: inline-block; vertical-align: bottom; padding-left: 1%; text-align: left}
+.bandaI img {width: 100%; height: autox}
+.bandaD {width: 50%; display: inline-block; vertical-align: bottom; font-size: 16px;
 	background: rgb(136, 24, 22);
 	background: -moz-linear-gradient(90deg, rgb(136, 24, 22) 10%, rgb(218, 4, 17) 60%);
 	background: -webkit-linear-gradient(90deg, rgb(136, 24, 22) 10%, rgb(218, 4, 17) 60%);
 	background: -o-linear-gradient(90deg, rgb(136, 24, 22) 10%, rgb(218, 4, 17) 60%);
 	background: -ms-linear-gradient(90deg, rgb(136, 24, 22) 10%, rgb(218, 4, 17) 60%);
-	background: linear-gradient(180deg, rgb(136, 24, 22) 10%, rgb(218, 4, 17) 60%);}
-.banda h1 {font-weight: 400; text-align: center;font-family: 'Roboto', sans-serif;}
+	background: linear-gradient(180deg, rgb(136, 24, 22) 10%, rgb(218, 4, 17) 60%);
+	-webkit-border-top-left-radius: 20px;
+	-webkit-border-bottom-left-radius: 20px;
+	-moz-border-radius-topleft: 20px;
+	-moz-border-radius-bottomleft: 20px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;}
+.banda h1 {font-weight: 400; text-align: center;font-family: 'Roboto', sans-serif; font-size: 1.5em; margin: 15px 0;}
 h1 .colgatePlaxH1 {display: inline-block; margin: 0 0.2em; vertical-align: text-top;}
 
 /*section {height: 100%;}*/
@@ -144,6 +154,12 @@ input[type="submit"] {font-family: 'Roboto Condensed', sans-serif;}
 
 /* M E D I A  Q U E R Y */
 
+@media screen and (max-width: 1024px) and (orientation: portrait){
+	.bandaI {width: 80%; display: block; padding-left: 8%;}
+	.bandaD {width: 100%; display: block; padding: 0.8em; border-radius: 0; }
+	.bandaD h1 {margin: 0}
+}
+
 @media screen and (max-width: 1024px){
 	.txtSlide h3 {font-size: 4.8em;}
 	.txtSlide h2 {font-size: 3em; }
@@ -153,6 +169,8 @@ input[type="submit"] {font-family: 'Roboto Condensed', sans-serif;}
 @media screen and (max-width: 1024px) and (orientation: landscape){
 	.txtSlide {top: 5%;}
 	nav.menuPc {top:60px;}
+	.bandaI {width: 50%; padding-left: 2%;}
+	.bandaD {width: 48%;}
 }
 
 @media screen and (max-width: 1024px) and (orientation: portrait){
@@ -160,7 +178,7 @@ input[type="submit"] {font-family: 'Roboto Condensed', sans-serif;}
 	.txtSlide h3 {font-size: 4.8em;}
 	.txtSlide h2 {font-size: 3em; }
 	.papelitosHome {top:0 !important; width: 120%; left:-10%;}
-	.foto1 {background-image:url(../images/home768.jpg); background-repeat: no-repeat; background-position: center bottom; background-size: 100%;}
+	.foto1 {background-image:url(../images/home800-2.jpg); background-repeat: no-repeat; background-position: center bottom; background-size: 100%;}
 	/*.foto2 {background-image:url(../images/slide2-800-v.jpg); background-position: center top; background-size:cover}*/
 	.banda h1 {font-size: 1.8em; width: 90%; margin: 0.5em auto;}
 }
@@ -179,7 +197,8 @@ input[type="submit"] {font-family: 'Roboto Condensed', sans-serif;}
 	h1 .colgatePlaxH1 {width: 25%}
 }
 @media screen and (max-width: 768px) and (orientation: portrait){
-	.txtSlide {top: 12%;}
+	.txtSlide {top: 8%;}
+	.foto1 {background-image:url(../images/home768.jpg); background-repeat: no-repeat; background-position: center bottom; background-size: 100%;}
 }
 
 @media screen and (max-width: 667px) and (orientation: landscape){

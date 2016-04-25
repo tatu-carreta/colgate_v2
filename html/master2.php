@@ -13,7 +13,7 @@ require_once (__DIR__) . '/../php/config.php';
         <link rel="shortcut icon" href="favicon.ico">
         <!-- CSS -->
         <link href="<?php echo PATH_CSS; ?>styleProductos.css" rel="stylesheet" media="screen">
-        <link href="<?php echo PATH_CSS; ?>styles.css" rel="stylesheet" media="screen">
+        <link href="<?php echo PATH_CSS; ?>styles2.css" rel="stylesheet" media="screen">
         <link href="<?php echo PATH_CSS; ?>jquery.jscrollpane.css" rel="stylesheet" media="all" />
         <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300,300italic,500italic,700,700italic,900' rel='stylesheet' type='text/css'>
@@ -126,7 +126,7 @@ require_once (__DIR__) . '/../php/config.php';
         </header>
 
 <?php
-require_once (__DIR__) . '/home.php';
+require_once (__DIR__) . '/home2.php';
 require_once (__DIR__) . '/registro.php';
 require_once (__DIR__) . '/productos.php';
 require_once (__DIR__) . '/bases.php';
