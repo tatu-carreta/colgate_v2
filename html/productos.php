@@ -489,7 +489,7 @@
 
 			<!--  -->
 
-			<a  onclick="javascript:sendLinkEvent('','www.colgate.com.ar/app/Colgate/AR/OC/Products/OverTheCounter/ColgatePlax/home.cvsp');" href="http://www.colgate.com.ar/app/Colgate/AR/OC/Products/OverTheCounter/ColgatePlax/home.cvsp" target="_blank"><span class="btnProd">Conocé más de</span> <img class="logoColgate" src="<?php echo PATH_IMAGES; ?>logo-colgate-plax2.png" alt="Colgate Plax"></a>
+			<a  class="btnProd" onclick="javascript:sendLinkEvent('','www.colgate.com.ar/app/Colgate/AR/OC/Products/OverTheCounter/ColgatePlax/home.cvsp');" href="http://www.colgate.com.ar/app/Colgate/AR/OC/Products/OverTheCounter/ColgatePlax/home.cvsp" target="_blank"><span>Conocé más de</span> <img class="logoColgate" src="<?php echo PATH_IMAGES; ?>logo-colgate-plax2.png" alt="Colgate Plax"></a>
 
 		<div class="divDivisor"><img src="<?php echo PATH_IMAGES; ?>divisor.svg" alt="Colgate"></div>	
     </div> 
