@@ -4,16 +4,20 @@
 */
 
 .owl-theme .owl-controls{
-	text-align: center;
+	text-align: center; position: absolute; top: 25%; width: 100%;
 }
+
+.owl-pagination {display: none}
+/*.owl-theme .owl-controls .owl-buttons {position: absolute; top: 25%}*/
+.owl-prev {left:20px;}
+.owl-next {background-position:top right !important;right:20px;}
 
 /* Styling Next and Prev buttons */
 
 .owl-theme .owl-controls .owl-buttons div{
-	color: #FFF;
+	/*color: #FFF;
 	display: inline-block;
 	zoom: 1;
-	*display: inline;/*IE7 life-saver */
 	margin: 5px;
 	padding: 3px 10px;
 	font-size: 12px;
@@ -21,8 +25,16 @@
 	-moz-border-radius: 30px;
 	border-radius: 30px;
 	background: #869791;
-	filter: Alpha(Opacity=50);/*IE7 fix*/
-	opacity: 0.5;
+	opacity: 0.5;*/
+	width:30px;
+	height:30px;
+	background:transparent url(../images/arrows.png) no-repeat;
+	opacity:0.7;
+	cursor:pointer;
+	position: absolute;
+	text-indent: 9999px;
+	overflow: hidden;
+	z-index:100;
 }
 /* Clickable class fix problem with hover on touch devices */
 /* Use it for non-touch hover action */

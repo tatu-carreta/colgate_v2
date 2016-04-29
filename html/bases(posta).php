@@ -1,7 +1,7 @@
 <!-- Section BASES -->
 <section id="bases">
     <div class="container">
-        
+        <div class="papelitosProd"><img src="<?php echo PATH_IMAGES; ?>papelitos2.gif" alt="Colgate Plax"></div>
         <div class="colContent">
             <h3>BASES Y CONDICIONES DE LA ACCIÓN PROMOCIONAL<br> “PROMO ACERCATE MÁS COPA”</h3>
 
@@ -92,11 +92,11 @@
                 <h4>CLÁUSULA DÉCIMO CUARTA</h4>
 
                 <p>Las presentes Bases y Condiciones se regirán por las leyes de la República Argentina. Para toda divergencia que pudiera surgir en relación con esta Promoción y/o las Bases y Condiciones dentro del territorio argentino, el Organizador, los participantes y los potenciales ganadores se someten a la jurisdicción y competencia exclusiva de los Juzgados Nacionales Ordinarios con asiento en la Ciudad Autónoma de Buenos Aires, renunciando a cualquier otro fuero o jurisdicción que pudiera corresponderles.</p>
-            </div>
 
+            </div>
             <a class="btn" id="abreBases" style="margin-top: 20px">LEER MÁS</a>
         </div>
         <div class="clear"></div>
-    </div>
-    <div class="divDivisor"><img src="<?php echo PATH_IMAGES; ?>divisor.svg" alt="Colgate"></div>
+        <div class="divDivisor"><img src="<?php echo PATH_IMAGES; ?>divisor.svg" alt="Colgate"></div>
+    </div>    
 </section>

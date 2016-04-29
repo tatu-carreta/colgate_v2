@@ -75,7 +75,9 @@
 
 .productosResponsive {display: none; max-width: 600px; margin: 0 auto 3em;}
 .item {text-align: left; font-size: 16px; padding: 15px}
-.item h3 {color: #e2002c; padding-top: 10px; border-top: 2px solid #e2002c;}
+.item h3 {color: #e2002c; padding-top: 10px; border-top: 2px solid #e2002c;margin-bottom: 0;}
 .item p {margin: 5px 0; line-height: 17px;}
 .item .observacion {position: static; font-style: italic;}
 .item img {width: 100%; height: auto}
+
+owl-buttons

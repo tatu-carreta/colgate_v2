@@ -28,6 +28,7 @@ require_once (__DIR__) . '/../php/config.php';
             var PATH_CONTROLLER = '<?php echo PATH_CONTROLLER ?>';
             var PATH_HOME = '<?php echo PATH_HOME ?>';
         </script> 
+
         <script src="<?php echo PATH_JS ?>jquery.flexslider.js"></script>
         <script>
             $(window).load(function () {
@@ -79,8 +80,8 @@ require_once (__DIR__) . '/../php/config.php';
         <script>
             $(document).ready(function () {
                 $("#owl-demo").owlCarousel({
-                    autoPlay: false, //Set AutoPlay to 3 seconds
-                    nav:true,
+                    navigation :true,
+                    //autoPlay: false, Set AutoPlay to 3 seconds
                     items: 3,
                     itemsDesktopSmall: [979, 3],
                     itemsTablet: [768, 2],
@@ -134,8 +135,20 @@ require_once (__DIR__) . '/bases.php';
 
         <!-- FOOTER -->
         <footer>
-            <p class="copyright"> © 2016 <a href="http://www.colgatepalmolive.com.ar" target="_blank">Colgate-Palmolive Company</a>. Todos los derechos reservados. Usted está viendo la página de Argentina. <br>Vea nuestras <a href="http://www.colgate.com.ar/app/Colgate/AR/Corp/LegalPrivacy.cvsp" target="_blank">Políticas de Privacidad</a>. </p> 
+            <ul>
+              <li><a href="//colgatepalmolive.com.ar" target="_blank">ColgatePalmolive.com.ar</a></li>
+              <li><a href="//colgate.com.ar" target="_blank">Colgate.com.ar</a></li>
+              <li><a href="//www.colgate.com.ar/app/Colgate/AR/Corp/LegalPrivacy.cvsp" target="_blank">Pol&iacute;ticas Legales / Privacidad</a></li>
+              <li><a href="//www.colgate.com.ar/app/Colgate/AR/Corp/LegalPrivacy.cvsp#cookies" target="_blank">Pol&iacute;ticas de Cookies</a></li>
+              <li><a href="//www.colgate.com.ar/app/Colgate/AR/Corp/ContactUs/ConsumerAffairs.cvsp" target="_blank"
+                >Contacto</a></li>
+            </ul>
+            <p>&copy; 2016 Colgate-Palmolive Company. Todos los derechos reservados.<br>
+            Usted est&aacute; viendo la p&aacute;gina de Argentina.</p>
             <p class="brand"> <a href="http://www.colgatepalmolive.com.ar" target="_blank"></a> </p>
+
+            <!-- <p class="copyright"> © 2016 <a href="http://www.colgatepalmolive.com.ar" target="_blank">Colgate-Palmolive Company</a>. Todos los derechos reservados. Usted está viendo la página de Argentina. <br>Vea nuestras <a href="http://www.colgate.com.ar/app/Colgate/AR/Corp/LegalPrivacy.cvsp" target="_blank">Políticas de Privacidad</a>. </p> 
+            <p class="brand"> <a href="http://www.colgatepalmolive.com.ar" target="_blank"></a> </p> -->
         </footer>
 
         <div class="contentUp"><a href="#" class="scrollUp"></a></div>

@@ -68,7 +68,7 @@
                 <button type="button" class="masEan"><span>Agregar más códigos</span></button>
                 <span class="observacion">Podés cargar hasta 10 productos</span>
             </div>
-            <div class="combo">
+            <div class="combo envio">
                 <input type="hidden" name="section" value="registro">
                 <input class="btn" type="submit" value="ENVIAR">
             </div>
