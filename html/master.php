@@ -88,6 +88,8 @@ require_once (__DIR__) . '/../php/config.php';
                 });
             });
         </script>
+        
+        <script type="text/javascript" src="http://nexus.ensighten.com/colgatepalmolive/Bootstrap.js"></script>
     </head>
     <body>
         <script>
@@ -134,8 +136,8 @@ require_once (__DIR__) . '/bases.php';
 
         <!-- FOOTER -->
         <footer>
-            <p class="copyright"> © 2016 <a href="http://www.colgatepalmolive.com.ar" target="_blank">Colgate-Palmolive Company</a>. Todos los derechos reservados. Usted está viendo la página de Argentina. <br>Vea nuestras <a href="http://www.colgate.com.ar/app/Colgate/AR/Corp/LegalPrivacy.cvsp" target="_blank">Políticas de Privacidad</a>. </p> 
-            <p class="brand"> <a href="http://www.colgatepalmolive.com.ar" target="_blank"></a> </p>
+            <p class="copyright"> © 2016 <a onclick="javascript:sendLinkEvent('','www.promoacercatemas.com.ar/www.colgatepalmolive.com.ar');" href="http://www.colgatepalmolive.com.ar" target="_blank">Colgate-Palmolive Company</a>. Todos los derechos reservados. Usted está viendo la página de Argentina. <br>Vea nuestras <a onclick="javascript:sendLinkEvent('','www.promoacercatemas.com.ar/www.colgate.com.ar/app/Colgate/AR/Corp/LegalPrivacy.cvsp');" href="http://www.colgate.com.ar/app/Colgate/AR/Corp/LegalPrivacy.cvsp" target="_blank">Políticas de Privacidad</a>. </p> 
+            <p class="brand"> <a onclick="javascript:sendLinkEvent('','www.promoacercatemas.com.ar/www.colgatepalmolive.com.ar');" href="http://www.colgatepalmolive.com.ar" target="_blank"></a> </p>
         </footer>
 
         <div class="contentUp"><a href="#" class="scrollUp"></a></div>
@@ -160,5 +162,37 @@ require_once (__DIR__) . '/bases.php';
         <script type="text/javascript">
             $('#ca-container').contentcarousel();
         </script>
+        
+        <!-- Dynamic SiteCatalyst code version: H.x. Copyright 1997-2004 Omniture, Inc. More info available at http://www.omniture.com --> 
+        <script language="JavaScript" type="text/javascript">
+        <!--
+        var s_account='CPARAll,CPARPromo'; 
+        -->
+        </script>
+        <script language='JavaScript' src='http://www.colgate.com/Colgate/Common/s_code_remote_h.js'></script>
+        <script language="JavaScript">
+        <!-- 
+        _omniture.pageName='http://www.promoacercatemas.com.ar/Promoplax'; 
+        _omniture.server='http://www.promoacercatemas.com.ar'; 
+        _omniture.channel='main';
+        _omniture.account='CPARAll,CPARPromo'; 
+        _omniture.prop1='Latin America'; 
+        _omniture.prop2='Argentina';
+        _omniture.prop3='Spanish';
+        _omniture.prop4='Colgate Promo';
+        _omniture.prop5=' Promo Plax Acercate más'; 
+        _omniture.linkInternalFilter='javascript:,/Colgate';
+        _omniture.hier1='Colgate Universal,'; 
+        -->
+        </script> 
+        <script language='JavaScript' src='http://www.colgate.com/Colgate/Common/s_code_remote_h_post.js'></script>
+        <script language="JavaScript">
+        <!--
+        var s_code=_omniture.t();
+        if(s_code) {
+        alert("s_code="+s_code);
+        document.write(s_code); } //--></script> 
+        <!-- End SiteCatalyst code version: H.x. --> 
+        <noscript><img src="http://CPUYAll.112.2o7.net/b/ss/CPARAll,CPARPromo/1/1/H.7--NS/123456?pageName=http://www.promoacercatemas.com.ar/Promoplax" width="1" height="1" border="0" /></noscript>
     </body>
 </html>
