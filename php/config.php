@@ -26,10 +26,10 @@ if (!$localhost) {
             break;
     }
 
-    define("DB_USER", "");
-    define("DB_PASS", "");
+    define("DB_USER", "promopla_PROUser");
+    define("DB_PASS", "Promo_Pass_16");
     define("DB_HOST", "localhost");
-    define("DB_SELECTED", "");
+    define("DB_SELECTED", "promopla_Promo16");
 
 
 } else {
