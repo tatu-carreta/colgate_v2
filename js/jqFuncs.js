@@ -191,7 +191,8 @@ $(function () {
 
         var form = $(this);
 
-        var path_replace_local = '';
+        //var path_replace_local = '';
+        var path_replace_local = PATH_HOME + "/html/confirma.php?cg=090";
         //var path_replace_www = PATH_HOME + "/../gestion";
         var f_validar = validarRegistro();
         //var f_validar = true;
